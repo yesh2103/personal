@@ -1,0 +1,46 @@
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+	background-image: url('my.jpg');
+	background-position: 5%;
+	background-size:contain;
+	background-origin: border-box;
+	background-clip: border-box;
+}
+
+#proposal {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 50px auto;
+	padding: 30px;
+	max-width: 500px;
+	text-align: center;
+}
+
+#proposal h1 {
+	color: #444;
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+#proposal p {
+	color: #444;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
+#proposal button {
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+#proposal button:hover {
+	background-color: #3e8e41;
+}
